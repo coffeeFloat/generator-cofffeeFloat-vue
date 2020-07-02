@@ -32,6 +32,7 @@ module.exports = class extends Generator {
       'src/components/HelloWorld.vue',
       'src/router/index.js',
     ];
+    
     templates.forEach(item => {
       const tpl = this.templatePath(item);
       const out = this.destinationPath(item);
